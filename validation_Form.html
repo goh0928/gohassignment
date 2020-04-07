@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="validation_form.css">
+	<script type="text/javascript" src="validation_form.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="title"> 
+	     <a href="https://www.southern.edu.my/home.html"><img src="index.png"></a>
+	     <h1>Online Registration</h1>
+    </div> 
+    <div class="intruction">
+    	<ol>
+	    	<li>
+	    	This form contains five (5) parts, please fill out this form before submission.
+	    	</li>
+	    	<li>
+	    	The required fields are marked in asterisk (*).	
+	    	</li>
+	    	<li>
+	    	Kindly please check and make sure contact informations are correct, our staff will use these information to get in touch with you.	
+	    	</li>
+	    	<li>
+	    	No amendment is allowed after you submit your application.	
+    	    </li>	
+    	</ol>
+    </div>
+
+<div class="firstForm">
+	          <div class="formHead">
+	               <h2>1. Intake & Choices</h2>	
+	          </div>
+	        	
+ <div class="information">
+	   <h3>Intake and Programme</h3>
+	    <p>
+	      Please select intake year and intake.	
+	    </p>
+	    
+		    <div class="flex">
+				   <laber for="intake year">
+			          Year/Intake
+			       <span class="redmark">*</span>   
+			       </laber>
+		    
+			     <div class="Choices">
+				     	2020/May<input type="radio" name="intakeYear" value="2020/May"required>
+				     	2020/May<input type="radio" name="intakeYear" value="2020/September"required>
+			     </div>
+		    
+            </div>
+ </div> 
+ <div class="information">
+    <h3>Choice of Programme</h3>
+     <div class="flex">
+		 <label for="firstchoice">	
+			1<sup>st</sup>Choice
+			 <span class="redmark">*</span>	
+		</label>	 	
+		  <div class="choice">
+		    <select name="firstchoice">
+		    	<option selected="" value="Default">-Click to choice</option>
+		    	<option value="">Information Technology</option>
+		    	<option value="">Business</option>
+		    	<option value="">Accounting</option>
+		    	<option value="">Art and Design</option>
+		    	<option value="">Engineering</option>
+		    </select>
+		 </div><!--choice--->   
+	</div><!---flex--->
+		<div class="flex">
+		 <label for="secondchoice">	
+			2<sup>nd</sup>Choice
+			 <span class="redmark">*</span>	
+		</label>	 	
+		  <div class="choice">
+		    <select name="secondchoice">
+		    	<option selected="" value="Default">-Click to choice</option>
+		    	<option value="">Information Technology</option>
+		    	<option value="">Business</option>
+		    	<option value="">Accounting</option>
+		    	<option value="">Art and Design</option>
+		    	<option value="">Engineering</option>
+		    </select>
+		 </div><!---choice--->   
+		</div><!---flex--->
+				<div class="flex">
+		 <label for="thridchoice">	
+			3<sup>rd</sup>Choice
+			 <span class="redmark">*</span>	
+		</label>	 	
+		  <div class="choice">
+		    <select name="thridchoice">
+		    	<option selected="" value="Default">-Click to choice</option>
+		    	<option value="">Information Technology</option>
+		    	<option value="">Business</option>
+		    	<option value="">Accounting</option>
+		    	<option value="">Art and Design</option>
+		    	<option value="">Engineering</option>
+		    </select>
+		 </div>   
+		</div><!---flex--->         
+</div><!----informaition---->
+       
+     <div class="information">
+     	<h3>-Hostel</h3>
+     	<div class="flex">
+     		<label for="hostel">
+     		Hostel
+     		<span class="redmark">*</span>	
+     		</label>
+     	<div class="hostelChoice">
+     	  yes<input type="radio" name="yes" value="yes">	
+       
+         no<input type="radio" name="no" value="no">
+        </div><!---hostelchoice--->
+       </div><!---flex-->
+      </div><!--information-->
+    <div class="information">
+       <h3>- Scholarship</h3>
+     <div class="flex">
+     		<label for="Scholarship">
+     		Scholarship
+     		</label>
+     	<div class="choice">
+     	  <select name="Scholarshipchoice">
+		    	<option selected="" value="Default">-None</option>
+		    	<option value="">Degree Scholarship</option>
+		    	<option value="">Diploma Scholarship</option>
+		    	<option value="">Foundation Scholarship</option>
+		    	<option value="">Excellent Co-curriculum Scholarship</option>
+		    </select>	
+        </div><!---choice--->
+      </div><!---flex-->
+    </div><!--information-->
+ </div><!---first form--->
+    <div  class="secondForm">
+    	<div class="formHead_2">
+	          <h2> 2-Personal Information</h2>	
+	    </div>
+    
+		<div class="information">
+			<P>	Chinese Name:<input type="text" /></P>
+			<p>	English Name:<input type="text" /></p>	
+				<div class="gender">	
+					gender<span class="redmark">*</span>:
+		     	    male<input type="radio" name="gender" value="male" required />
+		     	    female<input type="radio" name="gender" value="female" required />
+		     	</div>
+	    
+		    <p>Date of Birth:<input type="brief" placeholder="dd/mm/yyyy"required/></P>
+		    <p>Nationality<span>*</span>:<input type="text"required/>
+		    <p>NRIC no.<span>*</span>:<input type="number"placeholder="000000-00-0000"required/></p>	
+		
+	<div class="flex">
+     		<label for="Race">
+     		Race
+     		</label>
+     	<div class="choice">
+     	  <select name="Race">
+		    	<option selected="" value="Default">-Click to choose</option>
+		    	<option value="">Malay</option>
+		    	<option value="">Chinese</option>
+		    	<option value="">Indian</option>
+		    	<option value="">Others</option>
+		    </select>	
+        </div><!---choice--->
+      </div><!---flex-->
+       <div class="flex">
+     		<label for="Religion">
+     		  Religion
+     		</label>
+     	<div class="choice">
+     	  <select name="Religion">
+		    	<option selected="" value="Default">-Click to choose</option>
+		    	<option value="None"> None</option>
+		        <option value="Bud"> Buddhism</option>
+                <option value="Tao"> Taoism</option>
+                <option value="Chr"> Christianity</option>
+                <option value="Cat"> Catholic</option>
+                <option value="Isl"> Islam</option>
+                <option value="Hin"> Hinduism</option>
+                <option value="Oth"> Others</option>
+		    </select>	
+        </div><!---choice--->
+      </div><!---flex-->
+		<label for="homePhoneNumber"><br><p> Phone Number:</p></label>
+	    <input type="text" name="homePhoneNumber" size="20"/>
+		    <label for="homePhoneNumber"><br><p> email:<span class="redmark">*</span></p></label>
+		    <input type="text" name="email" size="20">
+		 <label for="Address"><br><p> Address:<span class="redmark">*</span></p></label>
+		 <input type="text" name="Address" size="20">
+		  <label for="Postcode"><br><p> Postcode:<span class="redmark">*</span></p></label>
+		 <input type="text" name="Postcode" size="10">
+		 <div class="flex">
+	<label for="state">*<br>State<span class="redmark">*</span></label>
+			<div class="choice">
+				<select name="state">
+						<option selected="" value="Default">  Click to choose</option>
+						<option value="Joh">  Johor</option>
+    	                <option value="Ked">  Kedah</option>
+        	            <option value="Kel">  Kelantan</option>
+            	        <option value="Lum">  Kuala Lumpur</option>
+                	    <option value="Lab"> Labuan</option>
+                    	<option value="Mel">Melaka</option>
+                        <option value="Sem"> Negeri Sembilan</option>
+                        <option value="Pah">Pahang</option>
+                        <option value="Prk"> Perak</option>
+    	                <option value="Per"> Perlis</option>
+	                    <option value="Pen">Pulau Penang</option>
+        	            <option value="Put"> Putra Jaya</option>
+            	        <option value="Sab"> Sabah</option>
+                	    <option value="Sar"> Sarawak</option>
+                    	<option value="Sel"> Selangor</option>
+                        <option value="Ter"> Terengganu</option>
+                      </select>
+			</div><!---choice--->
+		 </div><!---flex--->  
+    </div><!---secondform--->
+ <div class="thridform">
+ 	<div class="formHead_3">
+	          <h2>3 Family Details</h2>	
+	    </div>
+    <div class="information">
+    	<p>	Chinese Name:<input type="text" /></p>
+		<p>	English Name:<input type="text" /></p>
+		<p>NRIC no.<span>*</span>:<input type="number"placeholder="000000-00-0000"required/></p>
+		<p><label for="homePhoneNumber"><br>Phone Number:</label></p>
+		<input type="text" name="homePhoneNumber" size="20"/>
+		<p><label for="Retionship"><br>Retionship:<span class="redmark"></span>*</label></p>
+		<input type="text" name="Retionship" size="20"/>
+		<p><label for="Income"><br>Household Annual Income
+        :<span class="redmark"></span>*</label></p>
+		<input type="text" name="Annual Income" size="20"/>		
+    </div>
+</div><!---thridform--->
+    <div class="form_4">
+    	<div class="formhaed_4">
+    		<h2>4 Academic Qualification<h2>
+    	</div>
+    	<div class="information">
+	    	<p>Secondary School</p><input type="text" name="secondarySchoolPlace" placeholder=" Please enter institute state" size="50">
+	    	<input type="text" name="secondarySchool" placeholder=" Please enter institute name" size="50">
+	    	<input type="text" name="secondarySchoolYear" placeholder="Please enter graduate year" size="50">
+	    	<p>Higher Institution</p>
+	    	<input type="text" name="secondarySchoolPlace" placeholder=" Please enter institute state" size="50">
+	    	<input type="text" name="secondarySchool" placeholder=" Please enter institute name" size="50">
+	    	<input type="text" name="secondarySchoolYear" placeholder="Please enter graduate year" size="50">
+    	</div>	
+    </div>
+    <div class="form_5">
+    	<div class="formhead_5">
+    		<h2>5 Certificate & Grades<h2>
+    	</div>
+    		<div class="information">
+	    		<p>Certificate:<span class="redmark">*</span></p>
+	    		<input type="text" name="Certificate"size="50">
+		        <p>Best Five Subject</p>
+		        <p>First Subject</P>
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name " size="50">
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name" size="50">
+		        <p>Second Subject</P>
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name " size="50">
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name" size="50">
+		        <p>Third Subject</P>
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name " size="50">
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name" size="50">
+		        <p>Fourth Subject</P>
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name " size="50">
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name" size="50">
+		        <p>Fifth Subjec</P>
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name " size="50">
+		        <input type="text" name="secondarySchoolYear" placeholder="Please enter the subject name" size="50">
+    		</div>
+
+    	<input type="submit" value="submit">
+ </div>
+</div><!--container--> 
+     </body>
+</html>

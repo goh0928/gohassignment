@@ -1,0 +1,151 @@
+form{
+	line-height:2em;
+}
+form>input, form>select{
+	padding:5px 10px;border:1px solid#888888;border-radius:5px;
+}form>.ok{
+	color:#008800; 
+}
+form>input:valid+.ok{
+	display:inline;
+}
+form>input:invalid+.ok{
+	display:none;
+}
+.container {
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    padding-left:25px;
+    padding-right:25px;
+}
+img,form,select,.choice{
+	width: 100%;
+}
+a {
+    width: 30%;
+    display: block;
+}
+.intruction{
+    padding-top: 5px;
+    padding-left: 20px;
+    border: 3px solid black;
+    width: 80%;
+    background-color: lavenderblush;
+}
+.firstForm{
+    border: 1px solid red;
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.formHead{
+    background-color: red;
+    padding: 10px 15px 10px 15px;
+}
+h2,h3{
+    color: white;
+	margin:0px; 
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+p{
+	padding-left: 10px;
+}
+label{
+  width: 20%;
+  padding-right: 10px;
+}
+.flex{
+	display: flex;
+	display direction: column;
+	margin:10px;
+}
+.information{
+ 	padding:20px;
+ 	border-bottom: 1px solid grey;
+}
+.redmark{
+	color: red;
+}
+form{
+	padding:20px;
+}
+
+select{
+
+	width: 100%;
+    height: 100%;
+}
+.formHead_2{
+    background-color: #d9ce09;
+    padding: 10px 15px 10px 15px;
+}
+.secondForm{
+    border: 1px solid #d9ce09;
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.gender{
+    padding-left: 20px;
+}
+input{
+    margin-left: 10px;
+}
+.formHead_3{
+    background-color:#09d90c;
+    padding: 10px 15px 10px 15px;
+}
+.thridForm{
+    border: 1px solid #09d90c;
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.form_4{
+    border: 1px solid #3282e3;
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.formhaed_4{
+    background-color: #3282e3;
+    padding: 10px 15px 10px 15px;
+}
+.formhead_5{
+    background-color: #a832e3;
+    padding: 10px 15px 10px 15px;
+}
+.form_5{
+    border: 1px solid #3282e3;
+    padding: 0px;
+    margin-left: -1px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+input[type="submit"] {
+    width: 100%;
+    height: 25px;
+    margin-left: 0px;
+    font-size: 15px;
+}                    
